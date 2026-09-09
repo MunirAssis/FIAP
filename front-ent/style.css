@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+.menu-item {
+font-size: 26px;
+color: red;
+
+& a {
+    color: darkred;
+}
+}
+
+/*.menu-item a {
+    color: darkred;
+}
+*/
+
+#header {
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+}
