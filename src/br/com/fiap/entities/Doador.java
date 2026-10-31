@@ -1,12 +1,17 @@
 package br.com.fiap.entities;
 
-public class Doador {
+public class Doador extends Pessoa {
     private String cpf;
     private Endereco endereco;
     private Consentimento consentimento;
 
     //metodo contrutor vazio
     public Doador() {
+    }
+
+    @Override
+    public void exibirDados() {
+
     }
 
     //metodo contrutor cheio

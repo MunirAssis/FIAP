@@ -5,21 +5,26 @@ public class Consentimento {
     private String dataAceite;
     private String finalidade;
 
-
     //metodo construtor vazio:
     public Consentimento() {
     }
 
     //metodo cheio
-
     public Consentimento(boolean aceito, String dataAceite, String finalidade) {
         this.aceito = aceito;
         this.dataAceite = dataAceite;
         this.finalidade = finalidade;
     }
 
-    //getters e setters
+    //metodo para a funcionalidade
+    public void registrarAceite(String data) {
+        this.aceito = true;
+        this.dataAceite = data;
+        System.out.println("Consentimento registrado em" + data + " para" + this.finalidade);
+    }
 
+
+    //getters e setters
     public boolean isAceito() {
         return aceito;
     }
@@ -51,6 +56,6 @@ public class Consentimento {
         return "Consentimento" +
                 "aceito=" + aceito +
                 ", dataAceite='" + dataAceite + '\'' +
-                ", finalidade='" + finalidade ;
+                ", finalidade='" + finalidade;
     }
 }

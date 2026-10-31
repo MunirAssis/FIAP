@@ -15,7 +15,6 @@ public class NotaFiscal {
     }
 
     //metodo construtor cheio
-
     public NotaFiscal(int id, String cnpjEmissor, double valor, String dataEmissao, String status, Doador doador, LeituraOcr leitura) {
         this.id = id;
         this.cnpjEmissor = cnpjEmissor;
@@ -26,8 +25,17 @@ public class NotaFiscal {
         this.leitura = leitura;
     }
 
-    //getters e setters
+    //metodo de funcionamento do codigo
+    public boolean verificarElegibilidade() {
+        if (this.valor > 0 && this.cnpjEmissor!=null){
+            this.status = "ELEGIVEL";
+            return true;    //se valor é maior q 0 e tem cnpj retorna true
+        }
+        this.status = "INVALIDA";
+        return false;   //se não, retorna false
+    }
 
+    //getters e setters
     public int getId() {
         return id;
     }

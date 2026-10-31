@@ -18,8 +18,10 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
-    //getters e setters
+    //metodo de funciondalidade do codigo
+    public abstract void exibirDados();
 
+    //getters e setters
     public int getId() {
         return id;
     }
