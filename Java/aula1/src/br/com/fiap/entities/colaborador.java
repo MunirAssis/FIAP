@@ -1,0 +1,18 @@
+package br.com.fiap.entities;
+
+public class colaborador {
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

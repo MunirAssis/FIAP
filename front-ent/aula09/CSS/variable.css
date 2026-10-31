@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #dc143c;
+    --color-secundary: #4545ff;
+
+    --color-success: #45ffae;
+    --color-success: #198254;
+    --color-success-dark: #0b3824;
+
+    --color-error-light: #ff4545;
+    --color-error: #821919;
+    --color-error-dark: #380b0b;
+
+    --color-info-light: #4545ff --font-size-2x1large: 48px;
+    --font-size-xlarge: 40px;
+    --font-size-large: 32px;
+    --font-size-medium: 24px;
+    --font-size-base: 16px;
+    --font-size-small: 12px;
+
+    --color-interface-border: #424242; 
+    --color-interface-foreground: #0c0c0c;
+    --color-interface-background: #343434;
+
+    
+}

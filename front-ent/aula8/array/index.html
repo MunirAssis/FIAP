@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array | Javascript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="" class="logo">Food<span>Express</span></a>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Nossos produtos</h1>
+        <p class="slogan">
+          Escolha o que mais te agrada e adicione ao seu carrinho!
+        </p>
+
+        <section class="products-grid" id="product-list">
+          <article class="product-card">
+            <img
+              class="product-image"
+              src="./images/hamburguer.png"
+              alt="Hambúrguer"
+              loading="lazy"
+            />
+            <h2>Hambúrguer</h2>
+            <p class="product-description">
+              Hambúrguer artesanal com queijo e salada.
+            </p>
+            <data class="product-price" value="28.9">R$&nbsp;28,90</data>
+            <button
+              class="button button-primary"
+              type="button"
+              data-add-to-cart="1"
+            >
+              Adicionar ao carrinho
+            </button>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>FoodExpress</p>
+    </footer>
+    <script src="./js/produtos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

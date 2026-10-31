@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.TotalValue {
+    background-color: beige;
+}
+
+#secundary {
+    text-decoration: underline;
+}
+
+.backgroud {
+    background-color: crimson;
+    color: whitesmoke;
+}

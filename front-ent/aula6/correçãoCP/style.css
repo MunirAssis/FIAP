@@ -1,0 +1,70 @@
+/*coluna = horizontla (de baixo para cima)
+linha = vertical (de esquerda para direita) */
+
+main {
+width:90%;
+margin: 0 auto;
+background-color: aquamarine;
+}
+
+.first-product {
+width: 30%;
+border: 1px solid salmao;
+display: inline-block;
+}
+
+.second-article {
+    display: flex; /* display flex é aplicado a um elemento pai e coordena seus filhos*/
+    flex-direction: row; 
+    gap: 16px;
+    justify-content: space-evenly; 
+    align-items: start; /* alinha os itens verticalmente (start = em cima)(end = em baixo)*/
+}
+
+.second-product {
+    width: 30%;
+    border: 1px solid salmon;
+    padding: 8px;
+    display: flex;
+}
+
+
+
+.third-article{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap; /*aplicar ao elemnto PAI! pois é ele quem esta com display:flex;*/
+
+
+}
+
+.third-product{
+    width: 20%;
+    padding: 16px;
+    border: 1px solid salmon;
+}
+
+
+.fourth-article{
+display: flex;
+gap: 16px;
+}
+
+.fourth-product{
+padding: 16px;
+border: 1px solid salmon;
+}
+
+.fourth-description{
+flex-grow: 2;
+order: 0;
+}
+
+.fourth-action {
+    flex-grow: 1;
+    order: 0;
+}
+
+@media (min-width: 1366px) {
+
+}

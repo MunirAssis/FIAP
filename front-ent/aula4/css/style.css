@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+}
+
+article {
+    width: 86%;
+    margin: 32px auto;
+}
+
+    .produtos {
+        outline: 1px solid salmon;
+        width: 1200;
+        margin: 0 auto;
+    
+    }
+
+    .produto {
+        box-sizing: 24px;
+        width: 400px;
+        display: inline-block;
+        outline: 1px solid blueviolet;
+        vertical-align: top;
+        
+            & p {
+                font-size: 16px;
+            }
+        
+            & data {
+                display: block;
+                font-size: 16px;
+            }
+    
+    }

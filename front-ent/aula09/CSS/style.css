@@ -1,0 +1,49 @@
+:root{
+    --color-primary: #dc143c;
+    --color-secundary: #4545ff;
+
+    --color-success: #45ffae;
+    --color-success: #198254;
+    --color-success-dark: #0b3824;
+
+
+    --color-error-light: #ff4545;
+    --color-error: #821919;
+    --color-error-dark: #380b0b;
+}
+    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 30%;
+    background-color: var(--color-interface-fotoground);
+}
+
+.card-title {
+    font-size: var(--font-size-large);
+}
+
+.toast {
+    position: absolute;
+    right: 2rem;
+    bottom: 5rem;
+    padding: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow:  1px 1px 4px #000;
+    
+    & sucess {
+        border-color: var(--color-success);
+        background-color: var(--color-success-light);
+        color: var(--color-success-dark)
+    }
+}

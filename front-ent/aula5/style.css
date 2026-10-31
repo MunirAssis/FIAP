@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+
+}
+
+/*@media serve como fosse uma "variavel" (se isso for vdd - isso deve acontecer)*/
+@media (min760px){
+
+    .produto {
+        width: 60%;
+        margin: 0 auto 1.25rem;
+    }
+
+    .produto img {
+        max-height: 270px;
+    }
+} 

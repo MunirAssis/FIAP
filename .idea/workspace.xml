@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="312b7202-b1df-4d2c-a6fc-b0959c68f556" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MunirAssis&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MunirAssis/FIAP.git&quot;,
+    &quot;accountId&quot;: &quot;ab8d97e0-078b-47bb-bf64-3103d43d6f4b&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000036568246" />
+      <entry key="S30" value="1.0017069355553057" />
+      <entry key="S60" value="1.0582637423404584" />
+      <entry key="M2" value="1.641082939925771" />
+      <entry key="M5" value="5.7816771717648" />
+      <entry key="M10" value="11.373118198327672" />
+      <entry key="M15" value="14.6091874561424" />
+      <entry key="M30" value="18.994153409735052" />
+      <entry key="H1" value="21.757269639769707" />
+      <entry key="H2" value="23.313187590355717" />
+      <entry key="H4" value="24.139483089918542" />
+      <entry key="D1" value="24.854137327328505" />
+      <entry key="W1" value="24.979101750350114" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.020155022143073E-91" />
+      <entry key="S5" value="8.124181064915226E-37" />
+      <entry key="S10" value="1.4972524892620596E-18" />
+      <entry key="S30" value="2.6595128069816466E-6" />
+      <entry key="S60" value="0.0035638094267085875" />
+      <entry key="M2" value="0.14059976050096007" />
+      <entry key="M5" value="1.3223371047022265" />
+      <entry key="M10" value="2.811285256265931" />
+      <entry key="M15" value="3.6179541148765617" />
+      <entry key="M30" value="4.658123192024199" />
+      <entry key="H1" value="5.286362077397925" />
+      <entry key="H2" value="5.631810166451321" />
+      <entry key="H4" value="5.812970364118398" />
+      <entry key="D1" value="5.968412740873342" />
+      <entry key="W1" value="5.995477248448091" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9944701686732144" />
+      <entry key="S2" value="0.9986146661010289" />
+      <entry key="S5" value="0.9994456359721023" />
+      <entry key="S10" value="0.9997227832162728" />
+      <entry key="S30" value="1.0016168961093863" />
+      <entry key="S60" value="1.061696529212737" />
+      <entry key="M2" value="1.779644199073673" />
+      <entry key="M5" value="7.094670959205486" />
+      <entry key="M10" value="14.173059090013583" />
+      <entry key="M15" value="18.216806158339608" />
+      <entry key="M30" value="23.64513755770964" />
+      <entry key="H1" value="27.039417029431043" />
+      <entry key="H2" value="28.94270505715491" />
+      <entry key="H4" value="29.951257371423143" />
+      <entry key="D1" value="30.82234350567852" />
+      <entry key="W1" value="30.97454930900208" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JCnQbc8kDBbK2L9dgXY25Ox25A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Estudo/FIAP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Estudo\FIAP\Java\src\br\com\fiap\entities" />
+      <recent name="C:\Estudo\FIAP\Java\aula3\main.java\src\br\com\fiap\entities" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312b7202-b1df-4d2c-a6fc-b0959c68f556" name="Changes" comment="" />
+      <created>1789173902933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789173902933</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
