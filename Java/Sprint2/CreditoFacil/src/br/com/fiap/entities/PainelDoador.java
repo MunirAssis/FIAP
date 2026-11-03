@@ -1,5 +1,5 @@
 package br.com.fiap.entities;
-
+//“tela de resumo” do doador, o que ele vê sobre sua participação: quem é, quanto doou e quanto de crédito gerou
 public class PainelDoador {
     private Doador doador;
     private Doacao ultimaDoacao;

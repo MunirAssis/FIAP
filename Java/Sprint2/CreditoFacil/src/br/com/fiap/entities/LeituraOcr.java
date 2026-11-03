@@ -1,5 +1,5 @@
 package br.com.fiap.entities;
-
+//classe que guarda os dados da leitura da Nota fiscal
 public class LeituraOcr {
     private String cnpjLido;
     private double valorLido;

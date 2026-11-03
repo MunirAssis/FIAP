@@ -23,6 +23,7 @@ public class VinculoNfp {
     //metodo de funcionalidade | liga o Doador a Instituição, mas so se tiver aceito consentimento
     public boolean ativar(){
         if(doador.getConsentimento().isAceite()) {
+            this.status = "Ativo";
             System.out.println("Vinculo ativo " + doador.getNome() + " -> " + instituicao.getNome());
             return true;
         }

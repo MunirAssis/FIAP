@@ -30,7 +30,7 @@ public class Consentimento {
         return aceite;
     }
 
-    public void setAceito(boolean aceito) {
+    public void setAceite(boolean aceito) {
         this.aceite = aceito;
     }
 

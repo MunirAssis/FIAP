@@ -1,5 +1,5 @@
 package br.com.fiap.entities;
-
+//classe que guarda as Duvidas e resposta entre uma conversa de uma pessoa e uma IA
 public class DuvidaChatbot {
     private int id;
     private String pergunta;
