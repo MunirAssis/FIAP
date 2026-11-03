@@ -24,7 +24,7 @@ public class Doacao {
     public double calcularCredito(){
         if (nota.getStatus().equals("Valido")){
             double taxa = 0.30;
-            double credito = this.valor * taxa;
+            double credito = nota.getValor() * taxa;
             System.out.println("Credito estimado de R$" + credito);
             return credito;
         }

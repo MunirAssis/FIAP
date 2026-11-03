@@ -27,13 +27,13 @@ public class NotaFiscal {
 
     //metodo de funcionalidade | Confere o cnpj e valor para decidir se a nota pode virar doação
     public boolean verificarElegibilidade() {
-        if (this.cnpjEmissor != null && this.valor > 0) {
+        if (this.cnpjEmissor != null && !cnpjEmissor.trim().isEmpty() &&valor > 0) {
             this.status = "Valido";
             return true;
-        }
+        } //trim (remove espaços (fonte google)
         this.status = "Invalido";
         return false;
-    } //se cnpj dif de "nulo" & valor é maior q 0 é valido se n: n
+    } //se cnpj diferente de "nulo" & valor é maior q 0 é valido se n: n
 
     //getters e setters
     public int getId() {
