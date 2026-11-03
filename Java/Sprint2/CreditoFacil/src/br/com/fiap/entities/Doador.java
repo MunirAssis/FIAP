@@ -1,23 +1,23 @@
 package br.com.fiap.entities;
 
-public class Doador {
+public class Doador extends Pessoa{
     private String cpf;
     private Endereco endereco;
     private Consentimento consentimento;
 
-    //metodo contrutor vazio
+    //metodo construtor vazio
     public Doador() {
     }
 
-    //metodo contrutor cheio
-    public Doador(String cpf, Endereco endereco, Consentimento consentimento) {
+    //metodo construtor cheio
+    public Doador(int id, String nome, String email, String telefone, String cpf, Endereco endereco, Consentimento consentimento) {
+        super(id, nome, email, telefone);
         this.cpf = cpf;
         this.endereco = endereco;
         this.consentimento = consentimento;
     }
 
     //getters e setters
-
     public String getCpf() {
         return cpf;
     }
@@ -43,12 +43,15 @@ public class Doador {
     }
 
     //toString
-
     @Override
     public String toString() {
-        return "Doador" +
-                "cpf='" + cpf + '\'' +
-                ", endereco=" + endereco +
-                ", consentimento=" + consentimento;
+        return "Doador " +
+                "\ncpf= '" + cpf + '\'' +
+                ", \nendereco = " + endereco +
+                ", \nconsentimento = " + consentimento +
+                ", \nid = " + id +
+                ", \nnome = '" + nome + '\'' +
+                ", \nemail = '" + email + '\'' +
+                ", \ntelefone = '" + telefone ;
     }
 }

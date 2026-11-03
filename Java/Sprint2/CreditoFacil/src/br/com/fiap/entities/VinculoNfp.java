@@ -1,5 +1,5 @@
 package br.com.fiap.entities;
-
+//classe para ligar um vinculo do Doador & Instituição
 public class VinculoNfp {
     private int id;
     private String dataVinculo;
@@ -19,6 +19,16 @@ public class VinculoNfp {
         this.doador = doador;
         this.instituicao = instituicao;
     }
+
+    //metodo de funcionalidade | liga o Doador a Instituição, mas so se tiver aceito consentimento
+    public boolean ativar(){
+        if(doador.getConsentimento().isAceite()) {
+            System.out.println("Vinculo ativo " + doador.getNome() + " -> " + instituicao.getNome());
+            return true;
+        }
+        this.status = "Pendente";
+        return false;
+    } //se
 
     //getters e setters
     public int getId() {

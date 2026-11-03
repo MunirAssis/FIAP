@@ -15,7 +15,6 @@ public class NotaFiscal {
     }
 
     //metodo construtor cheio
-
     public NotaFiscal(int id, String cnpjEmissor, double valor, String dataEmissao, String status, Doador doador, LeituraOcr leitura) {
         this.id = id;
         this.cnpjEmissor = cnpjEmissor;
@@ -26,8 +25,17 @@ public class NotaFiscal {
         this.leitura = leitura;
     }
 
-    //getters e setters
+    //metodo de funcionalidade | Confere o cnpj e valor para decidir se a nota pode virar doação
+    public boolean verificarElegibilidade() {
+        if (this.cnpjEmissor != null && this.valor > 0) {
+            this.status = "Valido";
+            return true;
+        }
+        this.status = "Invalido";
+        return false;
+    } //se cnpj dif de "nulo" & valor é maior q 0 é valido se n: n
 
+    //getters e setters
     public int getId() {
         return id;
     }

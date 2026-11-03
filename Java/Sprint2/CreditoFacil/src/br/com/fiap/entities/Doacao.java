@@ -12,7 +12,6 @@ public class Doacao {
     }
 
     //metodo cheio
-
     public Doacao(int id, double valor, String data, NotaFiscal nota, VinculoNfp vinculo) {
         this.id = id;
         this.valor = valor;
@@ -21,8 +20,19 @@ public class Doacao {
         this.vinculo = vinculo;
     }
 
-    //GETTERS e setters
+    //metodo de funcionalidade | Estima o credito gerado se a nota for elegivel calculando uma % do valor
+    public double calcularCredito(){
+        if (nota.getStatus().equals("Valido")){
+            double taxa = 0.30;
+            double credito = this.valor * taxa;
+            System.out.println("Credito estimado de R$" + credito);
+            return credito;
+        }
+        System.out.println("Nota não elegivel: credito 0");
+        return 0;
+    } //se NotaFiscal->status = Valido valor x 0.3, se n -> enelegivel
 
+    //GETTERS e setters
     public int getId() {
         return id;
     }

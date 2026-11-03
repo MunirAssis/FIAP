@@ -6,19 +6,27 @@ public class PainelDoador {
 
 
     //metodo de construção vazio
-
     public PainelDoador() {
     }
 
     //metodo cheio
-
     public PainelDoador(Doador doador, Doacao ultimaDoacao) {
         this.doador = doador;
         this.ultimaDoacao = ultimaDoacao;
     }
 
-    //getters e setters
+    //metodo de funcinalidade | Mostrar ao doador o retorno da doação
+    public String gerarResumo(){
+        String resumo = "=====PAINEL DO DOADOR=====\n";
+        resumo += "Doador: " + doador.getNome() + "\n";
+        resumo += "E-mail: " + doador.getEmail() + "\n";
+        resumo += "Valor da última doação R$ " + ultimaDoacao.getValor() + "\n";
+        resumo += "Crédito estimado R$ " + ultimaDoacao.calcularCredito() + "\n";
+        return resumo;
+    } //a St gerarResumo recebe: nome, email, valor e credito do Doador+Doacao (para mostrar ao Doador)
 
+
+    //getters e setters
     public Doador getDoador() {
         return doador;
     }

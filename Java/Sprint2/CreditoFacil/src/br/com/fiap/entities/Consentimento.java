@@ -1,7 +1,7 @@
 package br.com.fiap.entities;
 
 public class Consentimento {
-    private boolean aceito;
+    private boolean aceite;
     private String dataAceite;
     private String finalidade;
 
@@ -11,21 +11,27 @@ public class Consentimento {
     }
 
     //metodo cheio
-
     public Consentimento(boolean aceito, String dataAceite, String finalidade) {
-        this.aceito = aceito;
+        this.aceite = aceito;
         this.dataAceite = dataAceite;
         this.finalidade = finalidade;
     }
 
-    //getters e setters
+    //metodo de funcionalidade | registrar que o Doador autorizou a doação (LGPD)
+    public void registrarAceite(String data) {
+        this.aceite = true;
+        this.dataAceite = data;
+        System.out.println("Autorizado a doação em " + data + " para: " + this.finalidade);
+    }
 
-    public boolean isAceito() {
-        return aceito;
+
+    //getters e setters
+    public boolean isAceite() {
+        return aceite;
     }
 
     public void setAceito(boolean aceito) {
-        this.aceito = aceito;
+        this.aceite = aceito;
     }
 
     public String getDataAceite() {
@@ -49,7 +55,7 @@ public class Consentimento {
     @Override
     public String toString() {
         return "Consentimento" +
-                "aceito=" + aceito +
+                "aceito=" + aceite +
                 ", dataAceite='" + dataAceite + '\'' +
                 ", finalidade='" + finalidade ;
     }
