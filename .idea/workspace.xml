@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="312b7202-b1df-4d2c-a6fc-b0959c68f556" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/CHECKPOINT.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/Cp02_Livraria.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/src/br/com/fiap/entities/Autor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/src/br/com/fiap/entities/Categoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/src/br/com/fiap/entities/Livro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/Cp02_Livraria/src/br/com/fiap/main/TesteSistema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/CP02Livraria/diagrama_classes_livraria_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/CreditoFacil.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Consentimento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Doacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Doador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/DuvidaChatbot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Instituicao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/LeituraOcr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/NotaFiscal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/PainelDoador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/entities/VinculoNfp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/CreditoFacil/src/br/com/fiap/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Sprint2/DocCreditoFacil" beforeDir="false" />
-    </list>
+    <list default="true" id="312b7202-b1df-4d2c-a6fc-b0959c68f556" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
