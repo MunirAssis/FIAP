@@ -45,13 +45,12 @@ public class Doador extends Pessoa{
     //toString
     @Override
     public String toString() {
-        return "Doador " +
-                "\ncpf= '" + cpf + '\'' +
-                ", \nendereco = " + endereco +
-                ", \nconsentimento = " + consentimento +
-                ", \nid = " + id +
-                ", \nnome = '" + nome + '\'' +
-                ", \nemail = '" + email + '\'' +
-                ", \ntelefone = '" + telefone ;
+        return "ID: " + id +
+                "\nNome: " + nome +
+                "\nE-mail: " + email +
+                "\nTelefone: " + telefone +
+                "\nCPF: " + cpf +
+                "\n\nEndereço:\n" + endereco +
+                "\n\nConsentimento:\n" + consentimento;
     }
 }

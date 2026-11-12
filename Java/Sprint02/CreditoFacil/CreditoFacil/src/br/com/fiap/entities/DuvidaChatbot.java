@@ -58,10 +58,9 @@ public class DuvidaChatbot {
 
     @Override
     public String toString() {
-        return "DuvidaChatbot" +
-                "id=" + id +
-                ", pergunta='" + pergunta + '\'' +
-                ", resposta='" + resposta + '\'' +
-                ", doador=" + doador;
+        return "ID: " + id +
+                "\nPergunta: " + pergunta +
+                "\nResposta: " + resposta +
+                "\nFeita por: " + (doador != null ? doador.getNome() : "-");
     }
 }

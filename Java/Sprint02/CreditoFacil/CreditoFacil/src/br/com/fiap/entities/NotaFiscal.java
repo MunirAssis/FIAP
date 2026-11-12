@@ -96,13 +96,10 @@ public class NotaFiscal {
 
     @Override
     public String toString() {
-        return "NotaFiscal" +
-                "id=" + id +
-                ", cnpjEmissor='" + cnpjEmissor + '\'' +
-                ", valor=" + valor +
-                ", dataEmissao='" + dataEmissao + '\'' +
-                ", status='" + status + '\'' +
-                ", doador=" + doador +
-                ", leitura=" + leitura;
+        return "ID: " + id +
+                "\nCNPJ do emissor: " + cnpjEmissor +
+                "\nValor: R$ " + valor +
+                "\nData de emissão: " + dataEmissao +
+                "\nStatus: " + status;
     }
 }

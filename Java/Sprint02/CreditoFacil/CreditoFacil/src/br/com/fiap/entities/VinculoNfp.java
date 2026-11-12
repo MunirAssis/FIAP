@@ -24,7 +24,7 @@ public class VinculoNfp {
     public boolean ativar(){
         if(doador.getConsentimento().isAceite()) {
             this.status = "Ativo";
-            System.out.println("Vinculo ativo " + doador.getNome() + " -> " + instituicao.getNome());
+            System.out.println("Vínculo ativado com sucesso entre " + doador.getNome() + " e " + instituicao.getNome() + "!");
             return true;
         }
         this.status = "Pendente";
@@ -75,11 +75,10 @@ public class VinculoNfp {
     //toString
     @Override
     public String toString() {
-        return "VinculoNfp" +
-                "id=" + id +
-                ", dataVinculo='" + dataVinculo + '\'' +
-                ", status='" + status + '\'' +
-                ", doador=" + doador +
-                ", instituicao=" + instituicao;
+        return "ID: " + id +
+                "\nData do vínculo: " + dataVinculo +
+                "\nStatus: " + status +
+                "\nDoador: " + (doador != null ? doador.getNome() : "-") +
+                "\nInstituição: " + (instituicao != null ? instituicao.getNome() : "-");
     }
 }

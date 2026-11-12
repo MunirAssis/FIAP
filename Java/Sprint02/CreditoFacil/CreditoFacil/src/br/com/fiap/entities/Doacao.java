@@ -25,10 +25,10 @@ public class Doacao {
         if (nota.getStatus().equals("Valido")){
             double taxa = 0.30;
             double credito = nota.getValor() * taxa;
-            System.out.println("Credito estimado de R$" + credito);
+            System.out.println("Crédito estimado com sucesso: R$ " + credito);
             return credito;
         }
-        System.out.println("Nota não elegivel: credito 0");
+        System.out.println("Nota fiscal não é elegível para crédito. Valor do crédito: R$ 0,00");
         return 0;
     } //se NotaFiscal->status = Valido valor x 0.3, se n -> enelegivel
 
@@ -77,11 +77,10 @@ public class Doacao {
 
     @Override
     public String toString() {
-        return "Doacao" +
-                "id=" + id +
-                ", valor=" + valor +
-                ", data='" + data + '\'' +
-                ", nota=" + nota +
-                ", vinculo=" + vinculo;
+        return "ID: " + id +
+                "\nValor: R$ " + valor +
+                "\nData: " + data +
+                "\nNota fiscal vinculada: " + (nota != null ? nota.getId() : "-") +
+                "\nVínculo: " + (vinculo != null ? vinculo.getId() : "-");
     }
 }

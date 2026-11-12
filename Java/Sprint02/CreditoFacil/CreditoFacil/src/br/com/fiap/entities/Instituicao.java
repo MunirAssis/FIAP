@@ -37,12 +37,11 @@ public class Instituicao extends Pessoa{
     //toString
     @Override
     public String toString() {
-        return "Instituição " +
-                "\ncnpj='" + cnpj + '\'' +
-                ", \ncausa='" + causa + '\'' +
-                ", \nid=" + id +
-                ", \nnome='" + nome + '\'' +
-                ", \nemail='" + email + '\'' +
-                ", \ntelefone='" + telefone;
+        return "ID: " + id +
+                "\nNome: " + nome +
+                "\nE-mail: " + email +
+                "\nTelefone: " + telefone +
+                "\nCNPJ: " + cnpj +
+                "\nCausa apoiada: " + causa;
     }
 }

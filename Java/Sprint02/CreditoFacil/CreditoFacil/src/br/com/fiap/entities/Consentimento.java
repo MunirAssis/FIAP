@@ -21,7 +21,7 @@ public class Consentimento {
     public void registrarAceite(String data) {
         this.aceite = true;
         this.dataAceite = data;
-        System.out.println("Autorizado a doação em " + data + " para: " + this.finalidade);
+        System.out.println("Consentimento registrado com sucesso em " + data + " para a finalidade: " + this.finalidade);
     }
 
 
@@ -54,9 +54,8 @@ public class Consentimento {
 
     @Override
     public String toString() {
-        return "Consentimento" +
-                "aceito=" + aceite +
-                ", dataAceite='" + dataAceite + '\'' +
-                ", finalidade='" + finalidade ;
+        return "Aceite: " + (aceite ? "Sim" : "Ainda não") +
+                "\nData do aceite: " + ((dataAceite == null || dataAceite.isEmpty()) ? "não informada" : dataAceite) +
+                "\nFinalidade: " + finalidade;
     }
 }

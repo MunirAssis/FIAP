@@ -47,8 +47,7 @@ public class PainelDoador {
 
     @Override
     public String toString() {
-        return "PainelDoador" +
-                "doador=" + doador +
-                ", ultimaDoacao=" + ultimaDoacao;
+        return "Doador: " + (doador != null ? doador.getNome() : "-") +
+                "\nÚltima doação: " + (ultimaDoacao != null ? ultimaDoacao.getId() : "-");
     }
 }

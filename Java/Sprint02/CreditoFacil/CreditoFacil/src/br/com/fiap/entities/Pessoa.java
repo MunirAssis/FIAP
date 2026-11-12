@@ -55,10 +55,9 @@ public abstract class Pessoa {
     //toString
     @Override
     public String toString() {
-        return "Pessoa" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", telefone='" + telefone ;
+        return "ID: " + id +
+                "\nNome: " + nome +
+                "\nE-mail: " + email +
+                "\nTelefone: " + telefone;
     }
 }

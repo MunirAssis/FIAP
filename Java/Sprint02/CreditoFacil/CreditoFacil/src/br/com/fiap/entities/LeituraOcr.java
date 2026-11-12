@@ -51,9 +51,8 @@ public class LeituraOcr {
 
     @Override
     public String toString() {
-        return "LeituraOcr" +
-                "cnpjLido='" + cnpjLido + '\'' +
-                ", valorLido=" + valorLido +
-                ", confianca=" + confianca;
+        return "CNPJ identificado: " + cnpjLido +
+                "\nValor identificado: R$ " + valorLido +
+                "\nConfiança da leitura: " + confianca;
     }
 }
