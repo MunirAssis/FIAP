@@ -42,7 +42,6 @@ public abstract class Pessoa {
     }
 
     //toString
-
     @Override
     public String toString() {
         return "Pessoa" +

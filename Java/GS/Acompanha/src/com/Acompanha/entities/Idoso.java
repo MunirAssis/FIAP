@@ -32,15 +32,16 @@ public class Idoso extends Pessoa{
         this.reponsavel = reponsavel;
     }
 
-    //toString
 
+
+    //toString
     @Override
     public String toString() {
         return "Idoso" +
                 "dataNascimento='" + dataNascimento + '\'' +
                 ", reponsavel=" + reponsavel +
                 ", id=" + id +
-                ", nome='" + nome + '\'' +
+                ", nome='" + Nome + '\'' +
                 ", telefone='" + telefone;
     }
 }
