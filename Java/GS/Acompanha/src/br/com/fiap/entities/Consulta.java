@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Consulta {
     private int id;
@@ -23,7 +23,7 @@ public class Consulta {
     //metodo de funcionalidade
     public Lembrete gerarLembrete() {
         String descricao = "Consulta " + especialidade + "com " + medico;
-        Lembrete lembrete = new Lembrete(1, descricao, dataHora, "Pendente", 0, idoso);
+        Lembrete lembrete = new Lembrete(1, descricao, dataHora, "PENDENTE", 0, idoso);
         return lembrete;
     }
 

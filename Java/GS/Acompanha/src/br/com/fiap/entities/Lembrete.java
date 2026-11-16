@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Lembrete {
     private int id;
@@ -29,11 +29,11 @@ public class Lembrete {
     }//Esse metodo funciona para enviar o lembrete e conta as tentivas, e isso (junto com tentativas) permite saber se o idoso ignorou os avisos
 
     public void confirmar() {
-        this.status = "Confirmado";
+        this.status = "CONFIRMADO";
     }//muda os status (Não precisa devolver nada)
 
     public boolean semResposta() {
-        if (status.equals("Pendentes") && tentativas >= 2) {
+        if (status.equals("PENDENTE") && tentativas >= 2) {
             return true;
         } else {
             return false;

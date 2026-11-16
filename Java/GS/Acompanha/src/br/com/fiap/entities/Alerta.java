@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Alerta {
     private int id;

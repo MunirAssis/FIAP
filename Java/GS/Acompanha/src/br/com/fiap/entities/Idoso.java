@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Idoso extends Pessoa{
     private String dataNascimento;
@@ -41,7 +41,7 @@ public class Idoso extends Pessoa{
                 "dataNascimento='" + dataNascimento + '\'' +
                 ", reponsavel=" + reponsavel +
                 ", id=" + id +
-                ", nome='" + Nome + '\'' +
+                ", nome='" + nome + '\'' +
                 ", telefone='" + telefone;
     }
 }

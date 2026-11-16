@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Familiar extends Pessoa{
     private String parentesco;

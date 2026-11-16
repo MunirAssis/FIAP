@@ -1,4 +1,4 @@
-package com.Acompanha.entities;
+package br.com.fiap.entities;
 
 public class Medicamento {
     private int id;
@@ -24,7 +24,7 @@ public class Medicamento {
     //metodo de funcionalidade
     public Lembrete gerarLembrete() {
         String descricao = "Medicamento " + nome + " " + dosagem;
-        Lembrete lembrete = new Lembrete(1, descricao, horario, "Pendente", 0, idoso);
+        Lembrete lembrete = new Lembrete(1, descricao, horario, "PENDENTE", 0, idoso);
         return lembrete;
     }
 
